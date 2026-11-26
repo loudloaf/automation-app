@@ -1,0 +1,1 @@
+import{d as t}from"./index-0GtyALL6.js";function a(){var e;return{"x-user-email":((e=t.getState().user)==null?void 0:e.email)||""}}function s(e,r={}){return fetch(e,{...r,headers:{...a(),...r.headers||{}}})}export{s as a,a as b};
